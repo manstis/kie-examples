@@ -33,7 +33,7 @@ public class Example4
         kSession.insert( msg1 );
         kSession.fireAllRules();              
 
-        Object msg2 = createMessage(kContainer, "Dave", "Open the pod bay doors, HAL");        
+        Object msg2 = createMessage(kContainer, "Dave", "Open the pod bay doors, HAL.");
         kSession.insert( msg2 );
         kSession.fireAllRules();              
         

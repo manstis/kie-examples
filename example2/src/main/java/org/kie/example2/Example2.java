@@ -20,7 +20,7 @@ public class Example2
         kSession.insert( new Message("Dave", "Hello, HAL. Do you read me, HAL?") );
         kSession.fireAllRules();
         
-        kSession.insert( new Message("Dave", "Open the pod bay doors, HAL") );
+        kSession.insert( new Message("Dave", "Open the pod bay doors, HAL.") );
         kSession.fireAllRules();
         
 
